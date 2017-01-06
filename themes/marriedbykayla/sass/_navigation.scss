@@ -6,6 +6,7 @@
 
 a {
 	color: $color__link;
+	text-decoration: none;
 
 	&:visited {
 		color: $color__link-visited;
@@ -24,14 +25,27 @@ a {
 	}
 }
 
+/* Logo */
+
+.site-header {
+	position: fixed;
+	width: 100%;
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	h1 {
+		font-size: 1rem;
+		a {
+			color: $color_yellow;
+		}
+	}
+}
+
 /* Menus */
 
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
-
 	ul {
 		display: none;
 		list-style: none;
@@ -95,7 +109,10 @@ a {
 	}
 }
 
-/* Small menu. */
+/*--------------------------------------------------------------
+# Small Menu
+--------------------------------------------------------------*/
+
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
