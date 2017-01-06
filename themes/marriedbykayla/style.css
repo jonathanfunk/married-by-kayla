@@ -231,7 +231,7 @@ input,
 select,
 textarea {
   color: #55626D;
-  font: 16px arial, sans-serif;
+  font: 16px "Open Sans", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -239,7 +239,7 @@ textarea {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font: 2rem "American Typewriter", serif;
+  font: 2rem "Martel", serif;
   color: #E0DA46;
   margin: 0 0 1rem; }
 
