@@ -240,6 +240,7 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   font: 2rem "Martel", serif;
+  text-align: center;
   color: #E0DA46;
   margin: 0 0 1rem; }
 
@@ -610,7 +611,8 @@ a {
   margin: 0 auto; }
 
 section {
-  width: 100vw; }
+  width: 100vw;
+  background-color: #656F78; }
 
 /*--------------------------------------------------------------
 # Media
@@ -679,6 +681,44 @@ object {
   background: linear-gradient(180deg, rgba(101, 111, 120, 0), #656f78), url("../../images/hero-banner1.jpg ") no-repeat;
   background-size: cover;
   height: 100vh; }
+
+.about {
+  padding: 1.5rem 0 1.5rem; }
+  .about h2, .about h3 {
+    color: #95F8E8; }
+  .about h3 {
+    font: 1.5rem "Open Sans", sans-serif; }
+
+.about-image {
+  box-sizing: border-box;
+  width: 290px;
+  height: 290px;
+  border: 10px solid #E0DA46;
+  margin: 0 auto;
+  border-radius: 100%;
+  margin-bottom: 2rem; }
+  .about-image img {
+    border-radius: 100%; }
+
+.about-blurb {
+  box-sizing: border-box;
+  width: 290px;
+  height: 290px;
+  border: 10px solid #95F8E8;
+  background-color: #E0DA46;
+  margin: 0 auto;
+  border-radius: 100%;
+  font-size: .8rem;
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .about-blurb .about-blurb-wrap {
+    width: 190px;
+    height: 190px; }
 
 /*--------------------------------------------------------------
 # Page Templates

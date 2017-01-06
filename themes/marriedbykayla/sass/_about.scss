@@ -1,0 +1,41 @@
+.about {
+  padding: 1.5rem 0 1.5rem;
+  h2,h3 {
+    color: $color_ligher-green;
+  }
+  h3 {
+    font: 1.5rem $font__main;
+  }
+}
+
+.about-image {
+  box-sizing: border-box;
+  width: 290px;
+  height: 290px;
+  border: 10px solid $color_yellow;
+  margin: 0 auto;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+  img {
+    border-radius: 100%;
+  }
+}
+
+.about-blurb {
+  box-sizing: border-box;
+  width: 290px;
+  height: 290px;
+  border: 10px solid $color_ligher-green;
+  background-color: $color_yellow;
+  margin: 0 auto;
+  border-radius: 100%;
+  font-size: .8rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .about-blurb-wrap {
+    width: 190px;
+    height: 190px;
+  }
+}
