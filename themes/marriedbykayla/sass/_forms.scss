@@ -8,11 +8,12 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
+	width: 272px;
+	height: 45px;
+	background-color: $color_yellow;
+	border-radius: 14px;
 	border: 0;
-	border-radius: 3px;
-	line-height: 1;
-	padding: 0;
-	background-color: transparent;
+	font-family: $font_header;
 	&:hover {
 	}
 
@@ -42,7 +43,7 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-	width: 272px;
+	max-width: 272px;
 	height: 45px;
 	background-color: $color_bg-green;
 	border: 1px solid $color_light-grey;
@@ -50,7 +51,7 @@ input[type="search"] {
 }
 
 textarea {
-	width: 272px;
+	max-width: 272px;
 	min-height: 200px;
 	background-color: $color_bg-green;
 	border: 1px solid $color_light-grey;
