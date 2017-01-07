@@ -244,6 +244,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #E0DA46;
   margin: 0 0 1rem; }
 
+h3 {
+  font: 1.5rem "Open Sans", sans-serif; }
+
 /* Copy */
 p {
   margin-bottom: 1.5em; }
@@ -686,9 +689,6 @@ object {
 .about h2, .about h3 {
   color: #95F8E8; }
 
-.about h3 {
-  font: 1.5rem "Open Sans", sans-serif; }
-
 .about-image {
   box-sizing: border-box;
   width: 290px;
@@ -747,6 +747,16 @@ object {
 
 .services .custom {
   background-color: #95F8E8; }
+
+.services .note {
+  width: 260px;
+  text-align: center;
+  font-family: "Martel", serif;
+  color: #E0DA46;
+  margin: 0 auto; }
+
+.calendar h2, .calendar h3 {
+  color: #5FAEA1; }
 
 /*--------------------------------------------------------------
 # Page Templates

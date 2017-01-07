@@ -25,5 +25,11 @@
   .custom {
     background-color: $color_ligher-green;
   }
-
+  .note {
+    width: 260px;
+    text-align: center;
+    font-family: $font_header;
+    color: $color_yellow;
+    margin: 0 auto;
+  }
 }

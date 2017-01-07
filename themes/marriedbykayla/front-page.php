@@ -39,9 +39,13 @@ get_header(); ?>
 						<a href="#"><h3>Custom</h3></a>
 					</li>
 				</ul>
-
+				<div class="note">
+					<p>*If you require travel outside of Saskatoon, we request an additional $0.412/km</p>
+				</div>
       </section>
-      <section>
+      <section class="calendar" id="caledar">
+				<h2>Calendar</h2>
+				<h3>Request a date</h3>
       </section>
       <section>
       </section>
