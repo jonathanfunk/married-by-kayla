@@ -44,8 +44,11 @@ get_header(); ?>
 				</div>
       </section>
       <section class="calendar" id="caledar">
-				<h2>Calendar</h2>
-				<h3>Request a date</h3>
+				<div class="container">
+					<h2>Calendar</h2>
+					<h3>Request a date</h3>
+					<?php echo do_shortcode("[booking type=1 nummonths=1]"); ?>
+				</div>
       </section>
       <section>
       </section>

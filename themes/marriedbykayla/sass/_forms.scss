@@ -32,7 +32,6 @@ textarea {
 	color: #666;
 	border: 1px solid #ccc;
 	border-radius: 3px;
-
 	&:focus {
 		color: #111;
 	}
@@ -43,10 +42,17 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-	padding: 3px;
+	width: 272px;
+	height: 45px;
+	background-color: $color_bg-green;
+	border: 1px solid $color_light-grey;
+	border-radius: 14px;
 }
 
 textarea {
-	padding-left: 3px;
-	width: 100%;
+	width: 272px;
+	min-height: 200px;
+	background-color: $color_bg-green;
+	border: 1px solid $color_light-grey;
+	border-radius: 14px;
 }

@@ -383,11 +383,18 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-  padding: 3px; }
+  width: 272px;
+  height: 45px;
+  background-color: #656F78;
+  border: 1px solid #E6E6E6;
+  border-radius: 14px; }
 
 textarea {
-  padding-left: 3px;
-  width: 100%; }
+  width: 272px;
+  min-height: 200px;
+  background-color: #656F78;
+  border: 1px solid #E6E6E6;
+  border-radius: 14px; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -757,6 +764,16 @@ object {
 
 .calendar h2, .calendar h3 {
   color: #5FAEA1; }
+
+footer {
+  width: 100vw;
+  background: url("../../images/weddingpattern.png ") repeat; }
+  footer .site-info {
+    padding: 1.5rem 2rem 1.5rem; }
+  footer h2 {
+    color: #656F78; }
+  footer h3 {
+    color: #656F78; }
 
 /*--------------------------------------------------------------
 # Page Templates
