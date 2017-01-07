@@ -424,7 +424,7 @@ a {
         align-items: center;
     -ms-flex-pack: justify;
         justify-content: space-between;
-    padding: 1rem;
+    padding: 1.5rem;
     position: relative; }
   .site-header h1 {
     font-size: 1rem;
@@ -442,7 +442,7 @@ a {
   margin: 0;
   padding-left: 0;
   background-color: rgba(10, 10, 10, 0.27);
-  padding: 1rem; }
+  padding: 1.5rem; }
   .main-navigation ul ul {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     float: left;
@@ -630,7 +630,7 @@ a {
 section {
   width: 100vw;
   background-color: #656F78;
-  padding: 1.5rem 0 1.5rem; }
+  padding: 1.5rem; }
 
 /*--------------------------------------------------------------
 # Media
@@ -700,8 +700,10 @@ object {
   background-size: cover;
   height: 100vh; }
 
-.about h2, .about h3 {
-  color: #95F8E8; }
+.about {
+  padding: 1.5rem 0 1.5rem; }
+  .about h2, .about h3 {
+    color: #95F8E8; }
 
 .about-image {
   box-sizing: border-box;
@@ -743,23 +745,40 @@ object {
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  text-align: center; }
   .services a h3 {
     margin: 0;
-    font-size: 1.5rem;
+    font: 1.5rem "Martel", serif;
     font-weight: bold;
     color: #656F78; }
 
-.services .basic {
+.services .service-desc {
+  padding: 1.5rem;
+  text-align: center; }
+  .services .service-desc p {
+    font-size: .8rem;
+    margin: 0 0 1rem;
+    color: #95F8E8; }
+  .services .service-desc .price {
+    font: 1rem "Martel", serif;
+    color: #656F78;
+    line-height: 33px;
+    width: 179px;
+    height: 33px;
+    background-color: #E0DA46;
+    margin: 0 auto; }
+
+.services .basic a {
   background-color: #5FAEA1; }
 
-.services .simple {
+.services .simple a {
   background-color: #6CC8B9; }
 
-.services .rehearsal {
+.services .rehearsal a {
   background-color: #7AE0D0; }
 
-.services .custom {
+.services .custom a {
   background-color: #95F8E8; }
 
 .services .note {

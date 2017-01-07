@@ -6,24 +6,51 @@
     border: 5px solid $color_yellow;
     justify-content: center;
     align-items: center;
+    text-align: center;
     h3 {
       margin: 0;
-      font-size: 1.5rem;
+      font: 1.5rem $font_header;
       font-weight: bold;
       color: $color_bg-green;
     }
   }
+  .service-desc {
+    padding: 1.5rem;
+    text-align: center;
+    p {
+      font-size: .8rem;
+      margin: 0 0 1rem;
+      color: $color_ligher-green;
+    }
+    .price {
+      font: 1rem $font_header;
+      color: $color_bg-green;
+      line-height: 33px;
+      width: 179px;
+      height: 33px;
+      background-color: $color_yellow;
+      margin: 0 auto;
+    }
+  }
   .basic {
-    background-color: $color_dark-green;
+    a {
+      background-color: $color_dark-green;
+    }
   }
   .simple {
-    background-color: $color_green;
+    a {
+      background-color: $color_green;
+    }
   }
   .rehearsal {
-    background-color: $color_light-green;
+    a {
+      background-color: $color_light-green;
+    }
   }
   .custom {
-    background-color: $color_ligher-green;
+    a {
+      background-color: $color_ligher-green;
+    }
   }
   .note {
     width: 260px;

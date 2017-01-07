@@ -24,26 +24,41 @@ get_header(); ?>
 				</div>
       </section>
       <section class="services" id="services">
-				<h2>Services</h2>
-				<ul class="services-list">
-					<li class="basic">
-						<a href="#"><h3>Basic</h3></a>
-					</li>
-					<li class="simple">
-						<a href="#"><h3>Simple</h3></a>
-					</li>
-					<li class="rehearsal">
-						<a href="#"><h3>Rehearsal</h3></a>
-					</li>
-					<li class="custom">
-						<a href="#"><h3>Custom</h3></a>
-					</li>
-				</ul>
-				<div class="note">
-					<p>*If you require travel outside of Saskatoon, we request an additional $0.412/km</p>
+				<div class="container">
+					<h2>Services</h2>
+					<ul class="services-list">
+						<li class="basic">
+							<a href="#"><h3>Basic</h3></a>
+							<div class="service-desc">
+								<p><?php echo CFS()->get( 'basic_description' ); ?></p>
+								<p class="price">Price: <?php echo CFS()->get( 'basic_price' ); ?></p>
+							</div>
+						</li>
+						<li class="simple">
+							<a href="#"><h3>Simple</h3></a>
+							<div class="service-desc">
+								<p><?php echo CFS()->get( 'basic_description' ); ?></p>
+								<p class="price">Price: <?php echo CFS()->get( 'basic_price' ); ?></p>
+							</div>						</li>
+						<li class="rehearsal">
+							<a href="#"><h3>Rehearsal</h3></a>
+							<div class="service-desc">
+								<p><?php echo CFS()->get( 'basic_description' ); ?></p>
+								<p class="price">Price: <?php echo CFS()->get( 'basic_price' ); ?></p>
+							</div>						</li>
+						<li class="custom">
+							<a href="#"><h3>Custom</h3></a>
+							<div class="service-desc">
+								<p><?php echo CFS()->get( 'basic_description' ); ?></p>
+								<p class="price">Price: <?php echo CFS()->get( 'basic_price' ); ?></p>
+							</div>						</li>
+					</ul>
+					<div class="note">
+						<p>*If you require travel outside of Saskatoon, we request an additional $0.412/km</p>
+					</div>
 				</div>
       </section>
-      <section class="calendar" id="caledar">
+      <section class="calendar" id="calendar">
 				<div class="container">
 					<h2>Calendar</h2>
 					<h3>Request a date</h3>
