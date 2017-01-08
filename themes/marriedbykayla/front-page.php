@@ -30,27 +30,27 @@ get_header(); ?>
 						<li class="basic">
 							<a href="#"><h3>Basic</h3></a>
 							<div class="service-desc">
-								<p><?php echo CFS()->get( 'basic_description' ); ?></p>
+								<p><?php echo CFS()->get( 'basic_service' ); ?></p>
 								<p class="price">Price: <?php echo CFS()->get( 'basic_price' ); ?></p>
 							</div>
 						</li>
 						<li class="simple">
 							<a href="#"><h3>Simple</h3></a>
 							<div class="service-desc">
-								<p><?php echo CFS()->get( 'basic_description' ); ?></p>
-								<p class="price">Price: <?php echo CFS()->get( 'basic_price' ); ?></p>
+								<p><?php echo CFS()->get( 'simple_service' ); ?></p>
+								<p class="price">Price: <?php echo CFS()->get( 'simple_price' ); ?></p>
 							</div>						</li>
 						<li class="rehearsal">
 							<a href="#"><h3>Rehearsal</h3></a>
 							<div class="service-desc">
-								<p><?php echo CFS()->get( 'basic_description' ); ?></p>
-								<p class="price">Price: <?php echo CFS()->get( 'basic_price' ); ?></p>
+								<p><?php echo CFS()->get( 'rehearsal_service' ); ?></p>
+								<p class="price">Price: <?php echo CFS()->get( 'rehearsal_price' ); ?></p>
 							</div>						</li>
 						<li class="custom">
 							<a href="#"><h3>Custom</h3></a>
 							<div class="service-desc">
-								<p><?php echo CFS()->get( 'basic_description' ); ?></p>
-								<p class="price">Price: <?php echo CFS()->get( 'basic_price' ); ?></p>
+								<p><?php echo CFS()->get( 'custom_service' ); ?></p>
+								<p class="price">Price: <?php echo CFS()->get( 'custom_price' ); ?></p>
 							</div>						</li>
 					</ul>
 					<div class="note">
