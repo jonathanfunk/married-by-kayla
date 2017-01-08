@@ -736,24 +736,32 @@ object {
     width: 190px;
     height: 190px; }
 
-.services a {
-  display: -ms-flexbox;
-  display: flex;
+.services h3 {
+  margin: 0;
+  font: 1.5rem "Martel", serif;
+  font-weight: bold;
+  color: #656F78;
   width: 100%;
   height: 81px;
-  border: 5px solid #E0DA46;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  text-align: center; }
-  .services a h3 {
-    margin: 0;
-    font: 1.5rem "Martel", serif;
-    font-weight: bold;
-    color: #656F78; }
+  line-height: 81px;
+  border: 5px solid #E0DA46; }
+
+.services li {
+  position: relative; }
+  .services li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+    .services li input[type=checkbox]:checked ~ .service-desc {
+      max-height: 0;
+      padding: 0;
+      opacity: 0;
+      transform: translate(0, 50%); }
 
 .services .service-desc {
+  transition: all 0.25s ease-in-out;
   padding: 1.5rem;
   text-align: center; }
   .services .service-desc p {
@@ -769,16 +777,16 @@ object {
     background-color: #E0DA46;
     margin: 0 auto; }
 
-.services .basic a {
+.services .basic h3 {
   background-color: #5FAEA1; }
 
-.services .simple a {
+.services .simple h3 {
   background-color: #6CC8B9; }
 
-.services .rehearsal a {
+.services .rehearsal h3 {
   background-color: #7AE0D0; }
 
-.services .custom a {
+.services .custom h3 {
   background-color: #95F8E8; }
 
 .services .note {

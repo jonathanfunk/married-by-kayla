@@ -9,9 +9,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-      <section class="hero" id="hero">
+      <section class="hero" id="hero"><!-- HERO SECTION -->
       </section>
-      <section class="about" id="about">
+      <section class="about" id="about"><!-- ABOUT SECTION -->
 				<h2>About Us</h2>
 				<h3>Who are we?</h3>
 				<div class="about-image">
@@ -23,31 +23,35 @@ get_header(); ?>
 					</div>
 				</div>
       </section>
-      <section class="services" id="services">
+      <section class="services" id="services"><!-- SERVICES SECTION -->
 				<div class="container">
 					<h2>Services</h2>
 					<ul class="services-list">
 						<li class="basic">
-							<a href="#"><h3>Basic</h3></a>
+							<input type="checkbox" checked>
+							<h3>Basic</h3>
 							<div class="service-desc">
 								<p><?php echo CFS()->get( 'basic_service' ); ?></p>
 								<p class="price">Price: <?php echo CFS()->get( 'basic_price' ); ?></p>
 							</div>
 						</li>
 						<li class="simple">
-							<a href="#"><h3>Simple</h3></a>
+							<input type="checkbox" checked>
+							<h3>Simple</h3>
 							<div class="service-desc">
 								<p><?php echo CFS()->get( 'simple_service' ); ?></p>
 								<p class="price">Price: <?php echo CFS()->get( 'simple_price' ); ?></p>
 							</div>						</li>
 						<li class="rehearsal">
-							<a href="#"><h3>Rehearsal</h3></a>
+							<input type="checkbox" checked>
+							<h3>Rehearsal</h3>
 							<div class="service-desc">
 								<p><?php echo CFS()->get( 'rehearsal_service' ); ?></p>
 								<p class="price">Price: <?php echo CFS()->get( 'rehearsal_price' ); ?></p>
 							</div>						</li>
 						<li class="custom">
-							<a href="#"><h3>Custom</h3></a>
+							<input type="checkbox" checked>
+							<h3>Custom</h3>
 							<div class="service-desc">
 								<p><?php echo CFS()->get( 'custom_service' ); ?></p>
 								<p class="price">Price: <?php echo CFS()->get( 'custom_price' ); ?></p>
@@ -58,7 +62,7 @@ get_header(); ?>
 					</div>
 				</div>
       </section>
-      <section class="calendar" id="calendar">
+      <section class="calendar" id="calendar"><!-- CALENDAR SECTION -->
 				<div class="container">
 					<h2>Calendar</h2>
 					<h3>Request a date</h3>
