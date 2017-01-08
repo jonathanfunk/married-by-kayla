@@ -801,30 +801,29 @@ object {
 .calendar h2, .calendar h3 {
   color: #5FAEA1; }
 
-.testimonials ul .carousel-cell {
-  width: 100%;
-  padding: 2rem;
-  box-sizing: border-box; }
-
-.testimonials .testimonial-pic {
-  width: 210px;
-  height: 210px;
-  border: 10px solid #95F8E8;
-  border-radius: 100%;
-  margin-bottom: 1rem;
-  overflow: hidden; }
-  .testimonials .testimonial-pic img {
+.testimonials {
+  padding: 1.5rem 0 3rem; }
+  .testimonials ul .carousel-cell {
+    width: 100%;
+    padding: 0 1.5rem 0; }
+  .testimonials .testimonial-pic {
+    width: 210px;
     height: 210px;
-    width: auto;
-    object-fit: cover; }
-
-.testimonials .testimonial-text {
-  width: 100%;
-  min-height: 200px;
-  background-color: #5FAEA1;
-  border: 8px solid #E5E15E;
-  padding: 1rem;
-  font-size: .8rem; }
+    border: 10px solid #95F8E8;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+    overflow: hidden; }
+    .testimonials .testimonial-pic img {
+      height: 210px;
+      width: auto;
+      object-fit: cover; }
+  .testimonials .testimonial-text {
+    width: 100%;
+    min-height: 200px;
+    background-color: #5FAEA1;
+    border: 8px solid #E5E15E;
+    padding: 1rem;
+    font-size: .8rem; }
 
 footer {
   width: 100vw;
