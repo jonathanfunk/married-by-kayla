@@ -30,6 +30,7 @@ a {
 .site-header {
 	position: fixed;
 	width: 100%;
+	z-index: 1;
 	.container {
 		display: flex;
 		align-items: center;

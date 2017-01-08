@@ -416,7 +416,8 @@ a {
 /* Logo */
 .site-header {
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 1; }
   .site-header .container {
     display: -ms-flexbox;
     display: flex;
@@ -798,6 +799,37 @@ object {
 
 .calendar h2, .calendar h3 {
   color: #5FAEA1; }
+
+.testimonials ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .testimonials ul li {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center; }
+
+.testimonials .testimonial-pic {
+  width: 210px;
+  height: 210px;
+  border: 10px solid #95F8E8;
+  border-radius: 100%;
+  margin-bottom: 1rem; }
+
+.testimonials .testimonial-text {
+  width: 100%;
+  min-height: 200px;
+  background-color: #5FAEA1;
+  border: 8px solid #E5E15E; }
 
 footer {
   width: 100vw;

@@ -1,0 +1,27 @@
+.testimonials {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    li {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  .testimonial-pic {
+    width: 210px;
+    height: 210px;
+    border: 10px solid $color_ligher-green;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+  }
+  .testimonial-text {
+    width: 100%;
+    min-height: 200px;
+    background-color: $color_dark-green;
+    border: 8px solid #E5E15E;
+  }
+}
