@@ -69,9 +69,10 @@ get_header(); ?>
 					<?php echo do_shortcode("[booking type=1 nummonths=1]"); ?>
 				</div>
       </section>
-      <section>
+      <section class="faq" id="faq">
+				<h2>FAQ</h2>
       </section>
-      <section class="testimonials" id="testimonials"><!-- TESTIMONIA; SECTION -->
+      <section class="testimonials" id="testimonials"><!-- TESTIMONIAL SECTION -->
 				<h2>Testimonials</h2>
 				<ul data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true, "prevNextButtons": false }'>
 					<?php

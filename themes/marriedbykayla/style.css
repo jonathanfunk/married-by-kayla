@@ -355,6 +355,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
+  margin-bottom: 1.5rem;
   width: 272px;
   height: 45px;
   background-color: #E0DA46;
@@ -748,6 +749,9 @@ object {
   line-height: 81px;
   border: 5px solid #E0DA46; }
 
+.services ul {
+  margin-bottom: 1.5rem; }
+
 .services li {
   position: relative; }
   .services li input[type=checkbox] {
@@ -801,6 +805,11 @@ object {
 .calendar h2, .calendar h3 {
   color: #5FAEA1; }
 
+.faq {
+  background: url("../../images/weddingpattern.png ") repeat; }
+  .faq h2 {
+    color: #656F78; }
+
 .testimonials {
   padding: 1.5rem 0 3rem; }
   .testimonials ul .carousel-cell {
@@ -853,6 +862,16 @@ footer {
     color: #656F78; }
   footer h3 {
     color: #656F78; }
+  footer form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  footer .ajax-loader {
+    margin: 0 auto !important;
+    display: block !important; }
 
 /*--------------------------------------------------------------
 # Page Templates

@@ -10,4 +10,13 @@ footer {
   h3 {
     color: $color_bg-green;
   }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ajax-loader {
+    margin: 0 auto !important;
+    display: block !important;
+  }
 }
