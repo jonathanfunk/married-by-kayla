@@ -85,10 +85,12 @@ add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
 function red_starter_scripts() {
 	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');//Font Awesome
 	wp_enqueue_style('google-fonts', '//fonts.googleapis.com/css?family=Martel:400,700|Open+Sans:300', false);//Google Fonts
+	wp_enqueue_style('flickity-style', '//unpkg.com/flickity@2/dist/flickity.min.css');//Flickity Style
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 	wp_enqueue_script( 'jquery' );
-	wp_enqueue_script ( 'scripts', get_template_directory_uri() . '/build/js/scripts.min.js', array ( 'jquery' ), false, true);
+	wp_enqueue_script ( 'scripts', get_template_directory_uri() . '/build/js/scripts.min.js', array ( 'jquery' ), false, true);//Custom Scripts
+	wp_enqueue_script ('flickity-script', '//unpkg.com/flickity@2/dist/flickity.pkgd.min.js', array ( 'jquery' ), false, true);//Flickity Script
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

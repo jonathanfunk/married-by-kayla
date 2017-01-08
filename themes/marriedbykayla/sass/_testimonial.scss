@@ -1,14 +1,9 @@
 .testimonials {
   ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    li {
+    .carousel-cell {
       width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      padding: 2rem;
+      box-sizing: border-box;
     }
   }
   .testimonial-pic {
@@ -17,11 +12,19 @@
     border: 10px solid $color_ligher-green;
     border-radius: 100%;
     margin-bottom: 1rem;
+    overflow: hidden;
+    img {
+      height: 210px;
+      width: auto;
+      object-fit: cover;
+    }
   }
   .testimonial-text {
     width: 100%;
     min-height: 200px;
     background-color: $color_dark-green;
     border: 8px solid #E5E15E;
+    padding: 1rem;
+    font-size: .8rem;
   }
 }

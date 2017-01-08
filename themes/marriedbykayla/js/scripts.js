@@ -6,9 +6,9 @@
    $('#primary-menu').animate({height:'toggle'},350).;
   });
 
-  $('.menu-toggle').on('focusout', function(){
-    event.preventDefault();
-    $('#primary-menu').hide();
-   });
+  // $('.menu-toggle').on('focusout', function(){
+  //   event.preventDefault();
+  //   $('#primary-menu').hide();
+  //  });
 
 })( jQuery );

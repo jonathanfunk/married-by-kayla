@@ -249,6 +249,7 @@ h3 {
 
 /* Copy */
 p {
+  margin-top: 0;
   margin-bottom: 1.5em; }
 
 dfn, cite, em, i {
@@ -800,36 +801,30 @@ object {
 .calendar h2, .calendar h3 {
   color: #5FAEA1; }
 
-.testimonials ul {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center; }
-  .testimonials ul li {
-    width: 100%;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: center;
-        justify-content: center; }
+.testimonials ul .carousel-cell {
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box; }
 
 .testimonials .testimonial-pic {
   width: 210px;
   height: 210px;
   border: 10px solid #95F8E8;
   border-radius: 100%;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  overflow: hidden; }
+  .testimonials .testimonial-pic img {
+    height: 210px;
+    width: auto;
+    object-fit: cover; }
 
 .testimonials .testimonial-text {
   width: 100%;
   min-height: 200px;
   background-color: #5FAEA1;
-  border: 8px solid #E5E15E; }
+  border: 8px solid #E5E15E;
+  padding: 1rem;
+  font-size: .8rem; }
 
 footer {
   width: 100vw;

@@ -73,13 +73,23 @@ get_header(); ?>
       </section>
       <section class="testimonials" id="testimonials"><!-- TESTIMONIA; SECTION -->
 				<h2>Testimonials</h2>
-				<ul>
-					<li>
-						<div class="testimonial-pic">
-						</div>
-						<div class="testimonial-text">
-						</div>
-					</li>
+				<ul data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true, "prevNextButtons": false }'>
+					<?php
+						$args = array(
+							'post_type' => 'testimonial',
+							'order' => 'DESC',);
+							$testimonial_posts = get_posts( $args ); // returns an array of posts
+							?>
+							<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
+								<li class="carousel-cell">
+									<div class="testimonial-pic"><?php the_post_thumbnail('medium'); ?>
+									</div>
+									<div class="testimonial-text">
+										<?php the_content(); ?>
+										<p class="client-name"><?php the_title(); ?></h3>
+									</div>
+								</li>
+							<?php endforeach; ?>
 				</ul>
       </section>
 		</main><!-- #main -->
