@@ -808,6 +808,25 @@ object {
 .calendar h2, .calendar h3 {
   color: #5FAEA1; }
 
+.calendar .form-group {
+  color: #95F8E8; }
+  .calendar .form-group .btn-default {
+    font-family: "Martel", serif;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1rem;
+    background-color: #656F78;
+    border: 4px solid #95F8E8;
+    border-radius: 14px;
+    background-image: none; }
+  .calendar .form-group input[type="text"] {
+    width: 212.88px;
+    height: 33px;
+    background-color: #656F78;
+    border: 1px solid #95F8E8;
+    border-radius: 14px; }
+
 .faq {
   background: url("../../images/mobile-swoosh-top.png ") no-repeat, url("../../images/mobile-swoosh-bottom.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
   background-size: contain, contain, auto;

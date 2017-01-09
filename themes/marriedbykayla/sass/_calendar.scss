@@ -2,4 +2,25 @@
   h2, h3 {
     color: $color_dark-green;
   }
+  .form-group {
+    color: $color_ligher-green;
+    .btn-default {
+      font-family: $font_header;
+      width: 100%;
+      height: 45px;
+      line-height: 45px;
+      font-size: 1rem;
+      background-color: $color_bg-green;
+      border: 4px solid $color_ligher-green;
+      border-radius: 14px;
+      background-image: none;
+    }
+    input[type="text"] {
+      width: 212.88px;
+      height: 33px;
+      background-color: $color_bg-green;
+      border: 1px solid $color_ligher-green;
+      border-radius: 14px;
+    }
+  }
 }
