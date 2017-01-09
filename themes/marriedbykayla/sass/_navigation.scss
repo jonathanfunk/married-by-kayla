@@ -44,6 +44,9 @@ a {
 		a {
 			color: $color_yellow;
 		}
+		@include tablet {
+			font-size: 1.8rem;
+		}
 	}
 }
 
@@ -134,11 +137,13 @@ a {
 	border-radius: 3px;
 	line-height: 1;
 	padding: 0;
+	margin: 0;
 	background-color: transparent;
 	width: 37px;
+	height: 40px;
 }
 
-@media screen and (min-width: 37.5em) {
+@include desktop {
 	.menu-toggle {
 		display: none;
 	}
