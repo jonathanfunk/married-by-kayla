@@ -1,4 +1,7 @@
 .about {
+  background: url("../../images/mobile-swoosh-small.png ") no-repeat, url("../../images/mobile-swoosh-bottom.png ") no-repeat, url("../../images/weddingpattern.png ") repeat ;
+  background-size: contain, contain, auto;
+  background-position: top, bottom, center;
   padding: 1.5rem 0 1.5rem;
   h2,h3 {
     color: $color_ligher-green;

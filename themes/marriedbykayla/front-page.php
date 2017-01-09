@@ -71,6 +71,10 @@ get_header(); ?>
       </section>
       <section class="faq" id="faq">
 				<h2>FAQ</h2>
+				<ul>
+					<li>
+					</li>
+				</ul>
       </section>
       <section class="testimonials" id="testimonials"><!-- TESTIMONIAL SECTION -->
 				<h2>Testimonials</h2>
