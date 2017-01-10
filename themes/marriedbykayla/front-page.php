@@ -74,32 +74,36 @@ get_header(); ?>
 				</div>
       </section>
       <section class="faq" id="faq">
+				<div class="container">
 				<h2>FAQ</h2>
 				<ul>
 					<li>
 					</li>
 				</ul>
+				</div>
       </section>
       <section class="testimonials" id="testimonials"><!-- TESTIMONIAL SECTION -->
-				<h2>Testimonials</h2>
-				<ul data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true, "prevNextButtons": false }'>
-					<?php
-						$args = array(
+				<div class="container">
+					<h2>Testimonials</h2>
+					<ul data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true, "prevNextButtons": false }'>
+						<?php
+							$args = array(
 							'post_type' => 'testimonial',
 							'order' => 'DESC',);
 							$testimonial_posts = get_posts( $args ); // returns an array of posts
-							?>
-							<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
-								<li class="carousel-cell">
-									<div class="testimonial-pic"><?php the_post_thumbnail('medium'); ?>
-									</div>
-									<div class="testimonial-text">
-										<?php the_content(); ?>
-										<p class="client-name"><?php the_title(); ?></h3>
-									</div>
-								</li>
-							<?php endforeach; ?>
-				</ul>
+						?>
+						<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
+						<li class="carousel-cell">
+							<div class="testimonial-pic"><?php the_post_thumbnail('medium'); ?>
+							</div>
+							<div class="testimonial-text">
+								<?php the_content(); ?>
+								<p class="client-name"><?php the_title(); ?></h3>
+							</div>
+						</li>
+					<?php endforeach; ?>
+					</ul>
+				</div>
       </section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
