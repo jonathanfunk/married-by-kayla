@@ -355,8 +355,10 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
+  box-sizing: border-box;
   margin-bottom: 1.5rem;
-  width: 272px;
+  width: 100%;
+  max-width: 420px;
   height: 45px;
   background-color: #E0DA46;
   border-radius: 14px;
@@ -386,14 +388,16 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-  max-width: 272px;
+  width: 100%;
+  max-width: 420px;
   height: 45px;
   background-color: #656F78;
   border: 1px solid #E6E6E6;
   border-radius: 14px; }
 
 textarea {
-  max-width: 272px;
+  width: 100%;
+  max-width: 420px;
   min-height: 200px;
   background-color: #656F78;
   border: 1px solid #E6E6E6;
@@ -929,6 +933,9 @@ footer {
         flex-wrap: wrap;
     -ms-flex-pack: center;
         justify-content: center; }
+    footer form p {
+      width: 100%;
+      max-width: 420px; }
   footer .ajax-loader {
     margin: 0 auto !important;
     display: block !important; }

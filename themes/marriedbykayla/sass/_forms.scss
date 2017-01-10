@@ -8,8 +8,10 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
+	box-sizing:border-box;
 	margin-bottom: 1.5rem;
-	width: 272px;
+	width: 100%;
+	max-width: 420px;
 	height: 45px;
 	background-color: $color_yellow;
 	border-radius: 14px;
@@ -44,7 +46,8 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-	max-width: 272px;
+	width: 100%;
+	max-width: 420px;
 	height: 45px;
 	background-color: $color_bg-green;
 	border: 1px solid $color_light-grey;
@@ -52,7 +55,8 @@ input[type="search"] {
 }
 
 textarea {
-	max-width: 272px;
+	width: 100%;
+	max-width: 420px;
 	min-height: 200px;
 	background-color: $color_bg-green;
 	border: 1px solid $color_light-grey;
