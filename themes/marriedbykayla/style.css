@@ -729,6 +729,11 @@ object {
   padding: 1.5rem 0 1.5rem; }
   .about h2, .about h3 {
     color: #95F8E8; }
+  @media (min-width: 600px) {
+    .about {
+      background: url("../../images/background-swoosh-small-top.png ") no-repeat, url("../../images/background-swoosh-small-bottom.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
+      background-size: contain, contain, auto;
+      background-position: top, bottom, center; } }
 
 .about-wrap {
   display: -ms-flexbox;
@@ -879,6 +884,11 @@ object {
   background: url("../../images/mobile-swoosh-top.png ") no-repeat, url("../../images/mobile-swoosh-bottom.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
   background-size: contain, contain, auto;
   background-position: top, bottom, center; }
+  @media (min-width: 600px) {
+    .faq {
+      background: url("../../images/background-swoosh-small-top.png ") no-repeat, url("../../images/background-swoosh-small-bottom.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
+      background-size: contain, contain, auto;
+      background-position: top, bottom, center; } }
   .faq h2 {
     color: #656F78; }
   .faq li {
@@ -946,6 +956,10 @@ footer {
   width: 100vw;
   background: url("../../images/mobile-swoosh-top.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
   background-size: contain, auto; }
+  @media (min-width: 600px) {
+    footer {
+      background: url("../../images/background-swoosh-small-top.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
+      background-size: contain, auto; } }
   footer .site-info {
     padding: 1.5rem; }
   footer h2 {

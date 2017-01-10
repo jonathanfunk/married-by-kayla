@@ -1,7 +1,18 @@
 .faq {
-  background: url("../../images/mobile-swoosh-top.png ") no-repeat, url("../../images/mobile-swoosh-bottom.png ") no-repeat, url("../../images/weddingpattern.png ") repeat ;
+  background:
+  url("../../images/mobile-swoosh-top.png ") no-repeat,
+  url("../../images/mobile-swoosh-bottom.png ") no-repeat,
+  url("../../images/weddingpattern.png ") repeat ;
   background-size: contain, contain, auto;
   background-position: top, bottom, center;
+  @include tablet {
+    background:
+    url("../../images/background-swoosh-small-top.png ") no-repeat,
+    url("../../images/background-swoosh-small-bottom.png ") no-repeat,
+    url("../../images/weddingpattern.png ") repeat;
+    background-size: contain, contain, auto;
+    background-position: top, bottom, center;
+  }
   h2 {
     color: $color_bg-green;
   }
