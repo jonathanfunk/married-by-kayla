@@ -21,7 +21,7 @@ get_header(); ?>
 						</div>
 						<div class="about-blurb">
 							<div class="about-blurb-wrap">
-								<?php echo CFS()->get( 'about_us_blurb' ); ?>
+								<p><?php echo CFS()->get( 'about_us_blurb' ); ?><p>
 							</div>
 						</div>
 					</div>

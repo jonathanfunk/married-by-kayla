@@ -26,12 +26,16 @@
   .testimonial-text {
     width: 100%;
     min-height: 200px;
+    max-width: 580px;
     background-color: $color_dark-green;
     border: 8px solid #E5E15E;
     border-bottom: 0;
     padding: 1rem;
     font-size: .8rem;
     position: relative;
+    @include tablet {
+
+    }
   }
   .client-name {
     font-family: $font_header;
