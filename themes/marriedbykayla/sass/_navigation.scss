@@ -102,11 +102,19 @@ a {
 		}
 	}
 	li {
-		font-size: 14px;
+		font-size: 1rem;
 		margin-bottom: .5rem;
 		display: block;
 		text-align: right;
 		position: relative;
+		@include desktop {
+			font-size: 1.3rem;
+			display: inline-block;
+			margin-right: 1rem;
+			&:last-child {
+				margin: 0;
+			}
+		}
 
 		&:hover > a,
 		&.focus > a {
@@ -149,6 +157,8 @@ a {
 	}
 	.main-navigation ul {
 		display: block;
+		background-color: transparent;
+		position: inherit;
 	}
 }
 

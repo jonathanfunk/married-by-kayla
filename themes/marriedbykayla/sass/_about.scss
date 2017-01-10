@@ -25,6 +25,10 @@
     width: 360px;
     height: 360px;
   }
+  @include desktop {
+    width: 425px;
+    height: 425px;
+  }
 }
 .about-image {
   border: 10px solid $color_yellow;
