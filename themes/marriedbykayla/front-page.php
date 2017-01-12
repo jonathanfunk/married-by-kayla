@@ -12,16 +12,20 @@ get_header(); ?>
       <section class="hero" id="hero"><!-- HERO SECTION -->
       </section>
       <section class="about" id="about"><!-- ABOUT SECTION -->
-				<div class="container">
+				<div class="about-heading">
 					<h2>About Us</h2>
 					<h3>Who are we?</h3>
-					<div class="about-wrap">
-						<div class="about-image">
-							<img src="<?php echo CFS()->get( 'about_us_picture' ); ?>" alt="About Us Picture" />
-						</div>
-						<div class="about-blurb">
-							<div class="about-blurb-wrap">
-								<p><?php echo CFS()->get( 'about_us_blurb' ); ?><p>
+				</div>
+				<div class="about-content">
+					<div class="container">
+						<div class="about-wrap">
+							<div class="about-image">
+								<img src="<?php echo CFS()->get( 'about_us_picture' ); ?>" alt="About Us Picture" />
+							</div>
+							<div class="about-blurb">
+								<div class="about-blurb-wrap">
+									<p><?php echo CFS()->get( 'about_us_blurb' ); ?><p>
+								</div>
 							</div>
 						</div>
 					</div>
