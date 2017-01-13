@@ -109,6 +109,13 @@ get_header(); ?>
 					</ul>
 				</div>
       </section>
+			<section class="contact" id="contact">
+				<div class="container">
+					<h2>Contact</h2>
+					<h3>Contact us for general inquiries, or click here to request a date.</h3>
+					<?php echo do_shortcode("[contact-form-7 id='20' title='Contact Form']"); ?>
+				</div><!-- .site-info -->
+			</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php get_footer(); ?>

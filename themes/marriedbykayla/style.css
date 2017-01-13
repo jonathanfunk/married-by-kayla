@@ -958,31 +958,31 @@ object {
     height: 54px;
     background-color: #E0DA46; }
 
-footer {
+.contact {
   width: 100vw;
   background: url("../../images/mobile-swoosh-top.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
   background-size: contain, auto; }
   @media (min-width: 600px) {
-    footer {
+    .contact {
       background: url("../../images/background-swoosh-small-top.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
       background-size: contain, auto; } }
-  footer .site-info {
+  .contact .site-info {
     padding: 1.5rem; }
-  footer h2 {
+  .contact h2 {
     color: #656F78; }
-  footer h3 {
+  .contact h3 {
     color: #656F78; }
-  footer form {
+  .contact form {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-pack: center;
         justify-content: center; }
-    footer form p {
+    .contact form p {
       width: 100%;
       max-width: 420px; }
-  footer .ajax-loader {
+  .contact .ajax-loader {
     margin: 0 auto !important;
     display: block !important; }
 
