@@ -442,6 +442,9 @@ a {
       .site-header h1 {
         font-size: 1.8rem; } }
 
+.overlay {
+  background-color: rgba(10, 10, 10, 0.27); }
+
 /* Menus */
 .main-navigation ul {
   display: none;
