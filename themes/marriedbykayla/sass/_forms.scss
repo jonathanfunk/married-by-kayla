@@ -33,9 +33,10 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-	color: #666;
-	border: 1px solid #ccc;
+	color: $color_light-grey;
+	border: 1px solid $color_light-grey;
 	border-radius: 3px;
+	padding: 1rem;
 	&:focus {
 		color: #111;
 	}
@@ -50,8 +51,10 @@ input[type="search"] {
 	max-width: 420px;
 	height: 45px;
 	background-color: $color_bg-green;
+	color: $color_light-grey;
 	border: 1px solid $color_light-grey;
 	border-radius: 14px;
+	padding: 1rem;
 }
 
 textarea {
@@ -60,5 +63,6 @@ textarea {
 	min-height: 200px;
 	background-color: $color_bg-green;
 	border: 1px solid $color_light-grey;
+	color: $color_light-grey;
 	border-radius: 14px;
 }

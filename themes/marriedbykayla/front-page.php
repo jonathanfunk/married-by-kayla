@@ -112,7 +112,7 @@ get_header(); ?>
 			<section class="contact" id="contact">
 				<div class="container">
 					<h2>Contact</h2>
-					<h3>Contact us for general inquiries, or click here to request a date.</h3>
+					<h3>Contact us for general inquiries, or <a href="#calendar">click</a> here to request a date.</h3>
 					<?php echo do_shortcode("[contact-form-7 id='20' title='Contact Form']"); ?>
 				</div><!-- .site-info -->
 			</section>

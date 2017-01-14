@@ -15,6 +15,11 @@
   h3 {
     color: $color_bg-green;
   }
+  a {
+    color: $color_green;
+    font-family: $font_header;
+    font-weight: bold;
+  }
   form {
     display: flex;
     flex-wrap: wrap;
@@ -22,6 +27,7 @@
     p {
       width: 100%;
       max-width: 420px;
+
     }
   }
   .ajax-loader {
