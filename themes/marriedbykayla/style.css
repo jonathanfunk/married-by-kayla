@@ -358,7 +358,7 @@ input[type="submit"] {
   box-sizing: border-box;
   margin-bottom: 1.5rem;
   width: 100%;
-  max-width: 420px;
+  max-width: 370px;
   height: 45px;
   background-color: #E0DA46;
   border-radius: 14px;
@@ -375,7 +375,8 @@ textarea {
   color: #E6E6E6;
   border: 1px solid #E6E6E6;
   border-radius: 3px;
-  padding: 1rem; }
+  padding: 1rem;
+  margin-bottom: 1.5rem; }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -396,7 +397,8 @@ input[type="search"] {
   color: #E6E6E6;
   border: 1px solid #E6E6E6;
   border-radius: 14px;
-  padding: 1rem; }
+  padding: 1rem;
+  margin-bottom: 1.5rem; }
 
 textarea {
   width: 100%;
@@ -405,7 +407,8 @@ textarea {
   background-color: #656F78;
   border: 1px solid #E6E6E6;
   color: #E6E6E6;
-  border-radius: 14px; }
+  border-radius: 14px;
+  margin-bottom: 1.5rem; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -838,7 +841,8 @@ object {
 .services .service-desc {
   transition: all 0.25s ease-in-out;
   padding: 1.5rem;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
   .services .service-desc p {
     font-size: .8rem;
     margin: 0 0 1rem;
@@ -973,8 +977,6 @@ object {
     .contact {
       background: url("../../images/background-swoosh-small-top.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
       background-size: contain, auto; } }
-  .contact .site-info {
-    padding: 1.5rem; }
   .contact h2 {
     color: #656F78; }
   .contact h3 {
@@ -992,10 +994,22 @@ object {
         justify-content: center; }
     .contact form p {
       width: 100%;
-      max-width: 420px; }
+      text-align: center; }
+    .contact form .contact-left p, .contact form .contact-right p {
+      text-align: left;
+      margin-bottom: 0; }
   .contact .ajax-loader {
     margin: 0 auto !important;
     display: block !important; }
+  @media (min-width: 1024px) {
+    .contact form .contact-left {
+      padding-right: 1rem; }
+      .contact form .contact-left p {
+        margin-bottom: 1.5rem; }
+    .contact form .contact-right {
+      padding-left: 1rem; }
+      .contact form .contact-right textarea {
+        min-height: 280px; } }
 
 /*--------------------------------------------------------------
 # Page Templates
