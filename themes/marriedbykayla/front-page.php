@@ -81,8 +81,22 @@ get_header(); ?>
 				<div class="container">
 				<h2>FAQ</h2>
 				<ul>
+					<?php
+						$args = array(
+						'post_type' => 'faq',
+						'order' => 'DESC',);
+						$faq_posts = get_posts( $args ); // returns an array of posts
+					?>
+					<?php foreach ( $faq_posts as $post ) : setup_postdata( $post ); ?>
 					<li>
+						<div class="faq-pic"><?php the_post_thumbnail('medium'); ?>
+						</div>
+						<div class="faq-text">
+							<p class="question"><?php the_title(); ?></h3>
+							<p class="answer"><?php echo CFS()->get( 'faq' ); ?></p>
+						</div>
 					</li>
+					<?php endforeach; ?>
 				</ul>
 				</div>
       </section>
