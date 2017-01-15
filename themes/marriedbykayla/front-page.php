@@ -101,7 +101,7 @@ get_header(); ?>
 							<div class="testimonial-pic"><?php the_post_thumbnail('medium'); ?>
 							</div>
 							<div class="testimonial-text">
-								<?php the_content(); ?>
+								<p><?php echo CFS()->get( 'testimonial' ); ?></p>
 								<p class="client-name"><?php the_title(); ?></h3>
 							</div>
 						</li>
