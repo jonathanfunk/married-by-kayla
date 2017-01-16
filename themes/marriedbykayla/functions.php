@@ -99,6 +99,13 @@ function red_starter_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'red_starter_scripts' );
 
+if ( function_exists( 'add_theme_support' ) ) {
+    add_theme_support( 'post-thumbnails' );
+
+    // additional image sizes
+    add_image_size( 'faq', 250, 250, true ); //300 pixels wide (and unlimited height)
+}
+
 /**
  * Custom template tags for this theme.
  */

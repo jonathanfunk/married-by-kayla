@@ -23,6 +23,10 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 1rem;
+    @include tablet {
+      width: 280px;
+      height: 280px;
+    }
   }
   img {
     width: 100%;

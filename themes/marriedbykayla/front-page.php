@@ -89,7 +89,7 @@ get_header(); ?>
 					?>
 					<?php foreach ( $faq_posts as $post ) : setup_postdata( $post ); ?>
 					<li>
-						<div class="faq-pic"><?php the_post_thumbnail('medium'); ?>
+						<div class="faq-pic"><?php the_post_thumbnail('faq'); ?>
 						</div>
 						<div class="faq-text">
 							<p class="question"><?php the_title(); ?> <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></p>
@@ -112,7 +112,7 @@ get_header(); ?>
 						?>
 						<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
 						<li class="carousel-cell">
-							<div class="testimonial-pic"><?php the_post_thumbnail('medium'); ?>
+							<div class="testimonial-pic"><?php the_post_thumbnail('thumb'); ?>
 							</div>
 							<div class="testimonial-text">
 								<p><?php echo CFS()->get( 'testimonial' ); ?></p>
