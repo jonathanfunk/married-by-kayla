@@ -84,7 +84,8 @@ get_header(); ?>
 					<?php
 						$args = array(
 						'post_type' => 'faq',
-						'order' => 'DESC',);
+						'order' => 'DESC',
+						'posts_per_page' => 6);
 						$faq_posts = get_posts( $args ); // returns an array of posts
 					?>
 					<?php foreach ( $faq_posts as $post ) : setup_postdata( $post ); ?>

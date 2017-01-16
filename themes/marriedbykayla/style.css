@@ -937,6 +937,14 @@ object {
       background-position: top, bottom, center; } }
   .faq h2 {
     color: #656F78; }
+  @media (min-width: 600px) {
+    .faq ul {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; } }
   .faq li {
     width: 100%;
     height: 200px;
@@ -945,6 +953,10 @@ object {
     overflow: hidden;
     margin-bottom: 1rem; }
     @media (min-width: 600px) {
+      .faq li {
+        width: 200px;
+        height: 200px; } }
+    @media (min-width: 1024px) {
       .faq li {
         width: 280px;
         height: 280px; } }
@@ -973,10 +985,11 @@ object {
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;
+    -ms-flex-align: end;
+        align-items: flex-end;
     padding: 1rem;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    text-align: center; }
   .faq .question {
     background: linear-gradient(180deg, rgba(10, 10, 10, 0.27) 0%, #6D6D6D); }
   .faq .answer {
