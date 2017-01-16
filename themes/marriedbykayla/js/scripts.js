@@ -11,7 +11,7 @@
    $('#primary-menu').animate({height:'toggle'},350);
  });
 
- //This animates scroll navigation
+ //This animates scroll navigation.
  var offset = $("header").height();
  $('a[href*="#"]:not([href="#"])').click(function() {
    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -26,6 +26,7 @@
    }
  });
 
+ //This gives the navigation an overlay on scroll.
  $(window).scroll(function() {
       var scroll = $(window).scrollTop();
       if (scroll >= 10) {
@@ -35,5 +36,9 @@
 
       }
   });
+
+  $('.faq-text').on('click', function(){
+    $(this).toggleClass('move');
+  })
 
 })( jQuery );

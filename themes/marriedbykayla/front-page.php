@@ -77,7 +77,7 @@ get_header(); ?>
 					<?php echo do_shortcode("[booking type=1 nummonths=1]"); ?>
 				</div>
       </section>
-      <section class="faq" id="faq">
+      <section class="faq" id="faq"><!-- FAQ SECTION -->
 				<div class="container">
 				<h2>FAQ</h2>
 				<ul>
@@ -92,8 +92,8 @@ get_header(); ?>
 						<div class="faq-pic"><?php the_post_thumbnail('medium'); ?>
 						</div>
 						<div class="faq-text">
-							<p class="question"><?php the_title(); ?></h3>
-							<p class="answer"><?php echo CFS()->get( 'faq' ); ?></p>
+							<p class="question"><?php the_title(); ?> <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></p>
+							<p class="answer"><?php echo CFS()->get( 'faq' ); ?> <i class="fa fa-angle-up fa-lg" aria-hidden="true"></i></p>
 						</div>
 					</li>
 					<?php endforeach; ?>
