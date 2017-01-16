@@ -23,8 +23,9 @@
       }
     }
     input[type="text"] {
-      width: 212.88px;
+      width: 284px;
       height: 33px;
+      padding: 1rem;
       background-color: $color_bg-green;
       border: 1px solid $color_ligher-green;
       border-radius: 14px;
@@ -33,6 +34,7 @@
 }
 
 .booking_form_div {
+  width: 284px;
   @include desktop {
     display: flex;
     height: 330px;
