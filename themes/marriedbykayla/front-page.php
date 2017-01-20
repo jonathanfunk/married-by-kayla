@@ -2,7 +2,7 @@
 /**
  * The main template file.
  *
- * @package RED_Starter_Theme
+ * @package Married_By_Kayla
  */
 
 get_header(); ?>
@@ -113,7 +113,7 @@ get_header(); ?>
 						?>
 						<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
 						<li class="carousel-cell">
-							<div class="testimonial-pic"><?php the_post_thumbnail('thumb'); ?>
+							<div class="testimonial-pic"><?php the_post_thumbnail('thumbnail'); ?>
 							</div>
 							<div class="testimonial-text">
 								<p><?php echo CFS()->get( 'testimonial' ); ?></p>
@@ -129,7 +129,11 @@ get_header(); ?>
 					<h2>Contact</h2>
 					<h3>Contact us for general inquiries, or <a href="#calendar">click</a> here to request a date.</h3>
 					<?php echo do_shortcode("[contact-form-7 id='20' title='Contact Form']"); ?>
-				</div><!-- .site-info -->
+					<div class="social">
+						<h3><a href="#">Back to top</a></h3>
+						<a href="https://www.facebook.com/marriagesaskatoon/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+					</div>
+				</div>
 			</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->

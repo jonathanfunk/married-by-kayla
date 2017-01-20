@@ -741,9 +741,17 @@ object {
 # Hero
 --------------------------------------------------------------*/
 .hero {
-  background: linear-gradient(180deg, rgba(101, 111, 120, 0), #656f78), url("../../images/hero-banner1.jpg ") no-repeat;
+  background: linear-gradient(180deg, rgba(101, 111, 120, 0), #656f78), url("../../images/hero-banner-mobile.jpg ") no-repeat;
   background-size: cover;
   height: 100vh; }
+  @media (min-width: 600px) {
+    .hero {
+      background: linear-gradient(180deg, rgba(101, 111, 120, 0), #656f78), url("../../images/hero-banner-tablet.jpg ") no-repeat;
+      background-size: cover; } }
+  @media (min-width: 1024px) {
+    .hero {
+      background: linear-gradient(180deg, rgba(101, 111, 120, 0), #656f78), url("../../images/hero-banner.jpg ") no-repeat;
+      background-size: cover; } }
 
 .about {
   padding: 0; }
@@ -1109,6 +1117,13 @@ object {
       padding-left: 1rem; }
       .contact form .contact-right textarea {
         min-height: 280px; } }
+  .contact .social {
+    text-align: center; }
+    .contact .social a {
+      font-weight: normal;
+      font-size: 2rem; }
+    .contact .social .fa {
+      font-size: 3rem; }
 
 /*--------------------------------------------------------------
 # Page Templates
