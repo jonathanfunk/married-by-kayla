@@ -8,8 +8,9 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main">
       <section class="hero" id="hero"><!-- HERO SECTION -->
+				<h2>Married By Kayla</h2>
       </section>
       <section class="about" id="about"><!-- ABOUT SECTION -->
 				<div class="about-heading">
@@ -117,7 +118,7 @@ get_header(); ?>
 							</div>
 							<div class="testimonial-text">
 								<p><?php echo CFS()->get( 'testimonial' ); ?></p>
-								<p class="client-name"><?php the_title(); ?></h3>
+								<p class="client-name"><?php the_title(); ?></p>
 							</div>
 						</li>
 					<?php endforeach; ?>

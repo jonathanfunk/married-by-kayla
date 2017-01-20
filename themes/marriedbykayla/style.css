@@ -752,6 +752,11 @@ object {
     .hero {
       background: linear-gradient(180deg, rgba(101, 111, 120, 0), #656f78), url("../../images/hero-banner.jpg ") no-repeat;
       background-size: cover; } }
+  .hero h2 {
+    font-size: 0;
+    height: 0;
+    margin: 0;
+    padding: 0; }
 
 .about {
   padding: 0; }
