@@ -3,6 +3,7 @@ Theme Name: Married by Kayla
 Theme URI: http://underscores.me/
 Author: Jonathan Funk
 Author URI: https://github.com/jonathanfunk
+Text Domain: marriedbykayla
 Description: A custom WordPress theme for Married by Kayla
 Version: 1.0.0
 License: GNU General Public License v2 or later
@@ -752,7 +753,8 @@ object {
     .hero {
       background: linear-gradient(180deg, rgba(101, 111, 120, 0), #656f78), url("../../images/hero-banner.jpg ") no-repeat;
       background-size: cover; } }
-  .hero h2 {
+  .hero .hero-content
+h2 {
     font-size: 0;
     height: 0;
     margin: 0;
@@ -949,7 +951,7 @@ object {
         width: 284px; }
       .booking_form_div .form-group {
         margin: 0 0 1rem !important; }
-        .booking_form_div .form-group:nth-last-child {
+        .booking_form_div .form-group:last-child {
           margin: 0 !important; } }
 
 .faq {

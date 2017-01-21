@@ -10,7 +10,9 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
       <section class="hero" id="hero"><!-- HERO SECTION -->
-				<h2>Married By Kayla</h2>
+				<div class="hero-content">
+					<h2>Married By Kayla</h2>
+				</div>
       </section>
       <section class="about" id="about"><!-- ABOUT SECTION -->
 				<div class="about-heading">
@@ -132,7 +134,7 @@ get_header(); ?>
 					<?php echo do_shortcode("[contact-form-7 id='20' title='Contact Form']"); ?>
 					<div class="social">
 						<h3><a href="#">Back to top</a></h3>
-						<a href="https://www.facebook.com/marriagesaskatoon/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+						<a href="<?php echo esc_url( __('https://www.facebook.com/marriagesaskatoon'));?>" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 					</div>
 				</div>
 			</section>
