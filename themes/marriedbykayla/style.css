@@ -1084,7 +1084,8 @@ h2 {
 .contact {
   width: 100vw;
   background: url("../../images/mobile-swoosh-top.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
-  background-size: contain, auto; }
+  background-size: contain, auto;
+  font-weight: bold; }
   @media (min-width: 600px) {
     .contact {
       background: url("../../images/background-swoosh-small-top.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
@@ -1123,7 +1124,7 @@ h2 {
     .contact form .contact-right {
       padding-left: 1rem; }
       .contact form .contact-right textarea {
-        min-height: 280px; } }
+        min-height: 395px; } }
   .contact .social {
     text-align: center; }
     .contact .social a {

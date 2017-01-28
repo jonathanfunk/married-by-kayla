@@ -2,6 +2,7 @@
   width: 100vw;
   background: url("../../images/mobile-swoosh-top.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
   background-size: contain, auto;
+  font-weight: bold;
   @include tablet {
     background: url("../../images/background-swoosh-small-top.png ") no-repeat, url("../../images/weddingpattern.png ") repeat;
     background-size: contain, auto;
@@ -50,7 +51,7 @@
       .contact-right {
         padding-left: 1rem;
         textarea {
-          min-height: 280px;
+          min-height: 395px;
         }
       }
     }
