@@ -13,6 +13,7 @@ input[type="submit"] {
 	width: 100%;
 	max-width: 370px;
 	height: 45px;
+	line-height: 45px;
 	background-color: $color_yellow;
 	border-radius: 14px;
 	border: 0;
@@ -55,11 +56,14 @@ input[type="search"] {
 	max-width: 420px;
 	height: 45px;
 	background-color: $color_bg-green;
-	color: $color_light-grey;
+	color: white;
 	border: 1px solid $color_light-grey;
 	border-radius: 14px;
 	padding: 1rem;
 	margin-bottom: 1.5rem;
+	@include desktop {
+		margin-bottom: 0;
+	}
 }
 
 textarea {
@@ -68,7 +72,8 @@ textarea {
 	min-height: 200px;
 	background-color: $color_bg-green;
 	border: 1px solid $color_light-grey;
-	color: $color_light-grey;
+	color: white;
+	font-weight: bold;
 	border-radius: 14px;
 	margin-bottom: 1.5rem;
 }

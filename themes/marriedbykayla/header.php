@@ -23,7 +23,9 @@
 			<header id="masthead" class="site-header">
 				<div class="container">
 					<div class="site-branding">
-						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+							<img src="<?php echo get_template_directory_uri() . '/images/MBK-Logo-White.png'; ?>" alt="Inhabitent Logo" />
+						</a>
 					</div><!-- .site-branding -->
 					<nav id="site-navigation" class="main-navigation">
 						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?><i class="fa fa-bars" aria-hidden="true"></i></button>

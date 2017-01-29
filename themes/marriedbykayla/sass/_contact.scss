@@ -35,6 +35,9 @@
     .wpcf7-response-output {
       margin: 0;
     }
+    div.wpcf7-mail-sent-ok {
+      border: 0;
+    }
   }
   .ajax-loader {
     margin: 0 auto !important;
@@ -51,7 +54,7 @@
       .contact-right {
         padding-left: 1rem;
         textarea {
-          min-height: 395px;
+          min-height: 325px;
         }
       }
     }
