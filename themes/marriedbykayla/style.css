@@ -409,7 +409,7 @@ input[type="search"] {
   color: white;
   border: 1px solid #E6E6E6;
   border-radius: 14px;
-  padding: 1rem;
+  padding: 0 1rem;
   margin-bottom: 1.5rem; }
   @media (min-width: 1024px) {
     input[type="text"],
@@ -932,7 +932,7 @@ h2 {
   .calendar .form-group input[type="text"] {
     width: 284px;
     height: 33px;
-    padding: 1rem;
+    padding: 0 1rem;
     background-color: #656F78;
     border: 1px solid #95F8E8;
     border-radius: 14px; }

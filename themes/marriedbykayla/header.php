@@ -24,7 +24,7 @@
 				<div class="container">
 					<div class="site-branding">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-							<img src="<?php echo get_template_directory_uri() . '/images/MBK-Logo-White.png'; ?>" alt="Inhabitent Logo" />
+							<img src="<?php echo get_template_directory_uri() . '/images/MBK-Logo-White.png'; ?>" alt="Married by Kayla Logo" />
 						</a>
 					</div><!-- .site-branding -->
 					<nav id="site-navigation" class="main-navigation">
