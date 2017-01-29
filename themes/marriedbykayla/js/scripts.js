@@ -3,6 +3,7 @@
  //This will show/hide the navigation list in mobile view.
  $('.menu-toggle').on('click', function(){
    event.preventDefault();
+   $(this).focus()
    $('#primary-menu').animate({height:'toggle'},350);
  });
 
