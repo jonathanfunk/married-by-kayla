@@ -88,7 +88,7 @@ function married_by_Kayla_scripts() {
 	wp_enqueue_style('flickity-style', '//unpkg.com/flickity@2/dist/flickity.min.css');//Flickity Style
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
-	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script( 'jquery', true);
 	wp_enqueue_script ( 'scripts', get_template_directory_uri() . '/build/js/scripts.min.js', array ( 'jquery' ), false, true);//Custom Scripts
 	wp_enqueue_script ('flickity-script', '//unpkg.com/flickity@2/dist/flickity.pkgd.min.js', array ( 'jquery' ), false, true);//Flickity Script
 

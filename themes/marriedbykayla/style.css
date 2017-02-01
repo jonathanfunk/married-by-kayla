@@ -461,12 +461,24 @@ a {
     -ms-flex-pack: justify;
         justify-content: space-between;
     padding: .5rem 1.5rem;
-    position: relative; }
-  .site-header img {
-    height: 100px; }
+    position: relative;
+    height: 122px; }
     @media (min-width: 600px) {
-      .site-header img {
-        height: 130px; } }
+      .site-header .container {
+        height: 152px; } }
+  .site-header .site-branding {
+    display: block;
+    height: 100%; }
+    .site-header .site-branding img {
+      max-height: 100%;
+      width: auto; }
+
+.hero-display .container {
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.hero-display .site-branding {
+  display: none; }
 
 /* Menus */
 .main-navigation ul {
@@ -758,12 +770,19 @@ object {
     .hero {
       background: linear-gradient(180deg, rgba(101, 111, 120, 0), #656f78), url("../../images/hero-banner.jpg ") no-repeat;
       background-size: cover; } }
-  .hero .hero-content
-h2 {
-    font-size: 0;
-    height: 0;
-    margin: 0;
-    padding: 0; }
+  .hero .hero-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    height: 100%; }
+    .hero .hero-content h2 {
+      font-size: 0;
+      height: 0;
+      margin: 0;
+      padding: 0; }
 
 .about {
   padding: 0; }

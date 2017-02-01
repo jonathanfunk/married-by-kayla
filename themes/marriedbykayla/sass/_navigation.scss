@@ -39,12 +39,27 @@ a {
 		justify-content: space-between;
 		padding: .5rem 1.5rem;
 		position: relative;
-	}
-	img {
-		height: 100px;
+		height: 122px;
 		@include tablet {
-			height: 130px;
+			height: 152px;
 		}
+	}
+	.site-branding {
+		display: block;
+		height: 100%;
+		img {
+			max-height: 100%;
+			width: auto;
+		}
+	}
+}
+
+.hero-display {
+	.container {
+		justify-content: center;
+	}
+	.site-branding {
+		display: none;
 	}
 }
 

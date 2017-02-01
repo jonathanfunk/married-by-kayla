@@ -14,11 +14,16 @@
     background: linear-gradient(180deg, rgba(101, 111, 120, 0), rgba(101, 111, 120, 1)), url("../../images/hero-banner.jpg ") no-repeat;
     background-size: cover;
   }
-  .hero-content
-  h2 {
-    font-size: 0;
-    height: 0;
-    margin: 0;
-    padding: 0;
+  .hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    h2 {
+      font-size: 0;
+      height: 0;
+      margin: 0;
+      padding: 0;
+    }
   }
 }

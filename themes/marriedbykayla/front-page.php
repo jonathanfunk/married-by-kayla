@@ -12,6 +12,7 @@ get_header(); ?>
       <section class="hero" id="hero"><!-- HERO SECTION -->
 				<div class="hero-content">
 				<h2>Married By Kayla</h2>
+				<img src="<?php echo get_template_directory_uri() . '/images/MBK-Logo-White.png'; ?>" alt="Married by Kayla Logo" />
 			</div>
       </section>
       <section class="about" id="about"><!-- ABOUT SECTION -->
