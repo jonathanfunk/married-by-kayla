@@ -56,7 +56,10 @@ a {
 
 .hero-display {
 	.container {
-		justify-content: center;
+		justify-content: flex-end;
+		@include desktop {
+			justify-content: center;
+		}
 	}
 	.site-branding {
 		display: none;

@@ -113,7 +113,7 @@ get_header(); ?>
 							$args = array(
 							'post_type' => 'testimonial',
 							'order' => 'DESC',);
-							$testimonial_posts = get_posts( $args ); // returns an array of posts
+							$testimonial_posts = get_posts( $args );
 						?>
 						<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
 						<li class="carousel-cell">

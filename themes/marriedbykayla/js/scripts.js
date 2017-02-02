@@ -12,6 +12,16 @@
    $('#primary-menu').animate({height:'toggle'},350);
  });
 
+ $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      var height = $(window).height();
+      if (scroll >= height) {
+          $("#masthead").removeClass("hero-display");
+      } else {
+          $("#masthead").addClass("hero-display");
+      }
+    });
+
  //This animates scroll navigation.
  var offset = $("header").height();
  $('a[href*="#"]:not([href="#"])').click(function() {
@@ -27,6 +37,7 @@
    }
  });
 
+ //This will show answer in FAQ sections on click.
   $('.faq-text').on('click', function(){
     $(this).toggleClass('move');
   })

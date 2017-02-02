@@ -474,8 +474,12 @@ a {
       width: auto; }
 
 .hero-display .container {
-  -ms-flex-pack: center;
-      justify-content: center; }
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
+  @media (min-width: 1024px) {
+    .hero-display .container {
+      -ms-flex-pack: center;
+          justify-content: center; } }
 
 .hero-display .site-branding {
   display: none; }
