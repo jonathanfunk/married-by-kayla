@@ -824,48 +824,49 @@ object {
 .about-image,
 .about-blurb {
   width: 290px;
-  height: 290px;
+  margin-bottom: 2rem;
   box-sizing: border-box; }
   @media (min-width: 600px) {
     .about-image,
     .about-blurb {
-      width: 360px;
-      height: 360px; } }
+      width: 360px; } }
   @media (min-width: 1024px) {
     .about-image,
     .about-blurb {
-      width: 425px;
-      height: 425px; } }
+      width: 425px; } }
 
 .about-image {
   border: 10px solid #E0DA46;
-  border-radius: 100%;
-  margin-bottom: 2rem; }
+  object-fit: cover;
+  height: 290px; }
   .about-image img {
-    border-radius: 100%;
     width: 100%;
     height: auto; }
+  @media (min-width: 600px) {
+    .about-image {
+      height: 360px; } }
+  @media (min-width: 1024px) {
+    .about-image {
+      height: 425px; } }
 
 .about-blurb {
+  min-height: 290px;
   border: 10px solid #95F8E8;
   background-color: #E0DA46;
-  border-radius: 100%;
-  font-size: .8rem;
   text-align: center;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
-      justify-content: center; }
-  .about-blurb .about-blurb-wrap {
-    width: 190px;
-    height: 190px; }
-    @media (min-width: 600px) {
-      .about-blurb .about-blurb-wrap {
-        width: 260px;
-        height: auto;
-        max-height: 260px; } }
+      justify-content: center;
+  padding: 1rem; }
+  @media (min-width: 600px) {
+    .about-blurb {
+      min-height: 360px; } }
+  @media (min-width: 1024px) {
+    .about-blurb {
+      min-height: 425px; } }
 
 .services h3 {
   margin: 0;
