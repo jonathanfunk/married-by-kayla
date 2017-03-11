@@ -1,5 +1,6 @@
 .testimonials {
   padding: 1.5rem 0 3rem;
+  min-height: 210px;
   ul {
     .carousel-cell {
       width: 100%;
@@ -41,9 +42,9 @@
     padding: 1rem;
     font-size: .8rem;
     position: relative;
-    @include tablet {
-
-    }
+  }
+  .client-testimonial {
+    margin-bottom: 54px;
   }
   .client-name {
     font-family: $font_header;

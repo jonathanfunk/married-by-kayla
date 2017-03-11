@@ -120,7 +120,7 @@ get_header(); ?>
 							<div class="testimonial-pic"><?php the_post_thumbnail('thumbnail'); ?>
 							</div>
 							<div class="testimonial-text">
-								<p><?php echo CFS()->get( 'testimonial' ); ?></p>
+								<p class="client-testimonial"><?php echo CFS()->get( 'testimonial' ); ?></p>
 								<p class="client-name"><?php the_title(); ?></p>
 							</div>
 						</li>

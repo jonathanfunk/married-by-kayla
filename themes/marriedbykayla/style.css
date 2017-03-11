@@ -1057,7 +1057,8 @@ object {
     top: -100%; }
 
 .testimonials {
-  padding: 1.5rem 0 3rem; }
+  padding: 1.5rem 0 3rem;
+  min-height: 210px; }
   .testimonials ul .carousel-cell {
     width: 100%;
     padding: 0 1.5rem 0;
@@ -1100,6 +1101,8 @@ object {
     padding: 1rem;
     font-size: .8rem;
     position: relative; }
+  .testimonials .client-testimonial {
+    margin-bottom: 54px; }
   .testimonials .client-name {
     font-family: "Martel", serif;
     line-height: 54px;
