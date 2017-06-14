@@ -1,5 +1,6 @@
 Married By Kayla
 ======
+![married-by-kayla-mockup-1024x683](https://user-images.githubusercontent.com/20465505/27143723-278800d2-50e4-11e7-9f63-65f18a7fbe67.jpg)
 
 ## Project
 This is a single page site for a marriage commissioner based in Saskatoon, Saskatchewan. The objective of this project is to implement wedding booking functionality and content management system using WordPress.
